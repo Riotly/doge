@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOGE Coin Tracker</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-financial"></script>
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -17,20 +19,6 @@
         <p><strong>Market Cap (INR):</strong> ₹<span id="dogeMarketCap"></span></p>
         <p><strong>24h Volume (INR):</strong> ₹<span id="dogeVolume"></span></p>
         <p><strong>24h Price Change:</strong> <span id="dogePriceChange"></span>%</p>
-    </div>
-
-    <!-- Predictions Section -->
-    <div class="predictions">
-        <h2>Predictions</h2>
-        <p><strong>Next Week:</strong> <span id="predictionNextWeek"></span></p>
-        <p><strong>Next Month:</strong> <span id="predictionNextMonth"></span></p>
-        <p><strong>Next Year:</strong> <span id="predictionNextYear"></span></p>
-    </div>
-
-    <!-- News Section -->
-    <div class="news">
-        <h2>Latest News</h2>
-        <ul id="newsList"></ul>
     </div>
 
     <!-- Chart Section -->

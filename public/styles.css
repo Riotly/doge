@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #ff9900;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info img {
+    width: 100px;
+    height: 100px;
+}
+
+.chart-container {
+    margin-top: 20px;
+    position: relative;
+    height: 60vh; /* Responsive height based on viewport */
+    width: 100%;
+}

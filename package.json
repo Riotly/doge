@@ -1,0 +1,28 @@
+{
+  "name": "doge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riotly/doge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Riotly/doge/issues"
+  },
+  "homepage": "https://github.com/Riotly/doge#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "chartjs-chart-financial": "^0.2.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0",
+    "ws": "^8.18.0"
+  }
+}
